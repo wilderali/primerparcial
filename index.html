@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Wilder Ali Mayta</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="proyectos.css">
+    <meta name="author" content="Wilder Ali Mayta">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <h1>Portafolio de Wilder Ali Mayta</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre-mi" class="seccion-sobre-mi">
+        <div class="contenedor">
+            <h2>Sobre Mí</h2>
+            <p>Soy Wilder Ali Mayta, un desarrollador web apasionado con experiencia en HTML, CSS, JavaScript, y más. Me encanta crear soluciones innovadoras y funcionales para los desafíos del mundo digital.</p>
+        </div>
+    </section>
+   <br>
+    <section id="habilidades" class="seccion-habilidades">
+        <div class="contenedor">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Postgres</li>
+                <li>Pyhton</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="proyectos" class="seccion-proyectos">
+        <div class="contenedor">
+            <h2>Proyectos</h2>
+            <div class="proyecto">
+                <h3>Proyecto 1: Sitio Web de Comercio Electrónico</h3>
+                <p>proyecto consiste en un sitio web de comercio electrónico desarrollado con HTML, 
+                    CSS y JavaScript. La plataforma permite a los usuarios navegar por una variedad 
+                    de productos, añadirlos al carrito de compras, y completar la compra mediante una 
+                    pasarela de pago integrada. Se utilizó Bootstrap para el diseño responsivo y 
+                    JavaScript para la gestión de la lógica del carrito de compras.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 2: Aplicación de Tareas</h3>
+                <p>Desarrollé una aplicación web para la gestión de tareas utilizando React.js para la 
+                    interfaz de usuario y Firebase para la autenticación y almacenamiento de datos. 
+                    La aplicación permite a los usuarios registrarse, añadir, editar y eliminar tareas, 
+                    así como marcar tareas completadas. También incluye funcionalidades de filtrado por 
+                    estado y fechas de vencimiento.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="seccion-contacto">
+        <div class="contenedor">
+            <h2>Contacto</h2>
+            <form action="#" method="post" class="formulario-contacto" id="formularioContacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Wilder Ali Mayta - Materia: Primer parcial Emergentes II</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
